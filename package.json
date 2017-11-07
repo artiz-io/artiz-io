@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "postinstall": "./node_modules/gulp/bin/gulp.js build",
-    "deploy-gh-pages": "git checkout master; git subtree split --prefix dist -b gh-pages; git push -f origin gh-pages:gh-pages; git branch -D gh-pages",
+    "deploy-gh-pages": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
     "dev": "./node_modules/gulp/bin/gulp.js default"
   },
   "author": "Jeses Degger <jesse@socialsquad.nl> (hhttps://github.com/jdegger)",
