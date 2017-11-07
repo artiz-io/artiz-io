@@ -1,0 +1,22 @@
+{
+  "name": "artiz-website",
+  "description": "Artiz landing page",
+  "main": "./src/index.html",
+  "directory": "./dist/bower_components",
+  "authors": [
+    "Jeses Degger <jesse@socialsquad.nl> (hhttps://github.com/jdegger)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jdegger/artiz-website",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.countdown": "^2.2.0"
+  }
+}

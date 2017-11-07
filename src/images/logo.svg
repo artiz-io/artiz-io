@@ -1,0 +1,33 @@
+
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.4%" y="-1.5%" width="100.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="8.14923202e-21 0.29601547 8.14923202e-21 53.7016575 53.8193085 53.7016575 53.8193085 0.29601547"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="launchpage" transform="translate(-289.000000, -84.000000)">
+            <g id="TOKEN-SALE" transform="translate(-58.000000, 84.000000)">
+                <g id="Menu-Bar" filter="url(#filter-1)">
+                    <g id="Logo" transform="translate(351.000000, 0.000000)">
+                        <g id="Artiz_logo">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M35.3026549,44.6705901 L29.6121843,37.9796619 C29.6121843,37.9796619 34.6472301,33.4985569 26.9096092,33.4985569 C19.1722889,33.4985569 24.2073346,37.9796619 24.2073346,37.9796619 L18.5165634,44.6705901 C15.0358967,41.0320044 11.6643673,35.4449436 11.6643673,29.1800486 C11.6643673,18.2153635 21.1364588,9.3268442 26.9096092,9.3268442 C32.6572039,9.3268442 42.154851,18.2153635 42.154851,29.1800486 C42.154851,35.4449436 38.7836222,41.0320044 35.3026549,44.6705901 M26.9096092,0.29601547 C12.0477007,0.29601547 -9.01960784e-05,12.2511978 -9.01960784e-05,26.9988663 C-9.01960784e-05,41.7462365 12.0477007,53.7017171 26.9096092,53.7017171 C41.7715176,53.7017171 53.8193085,41.7462365 53.8193085,26.9988663 C53.8193085,12.2511978 41.7715176,0.29601547 26.9096092,0.29601547" id="Fill-1" fill="#ECF4FF" mask="url(#mask-3)"></path>
+                            <path d="M23.1061908,21.9233138 C23.1061908,24.0081315 24.8090928,25.6976453 26.9097595,25.6976453 C29.0101255,25.6976453 30.7130275,24.0081315 30.7130275,21.9233138 C30.7130275,19.8390928 29.0101255,18.1492807 26.9097595,18.1492807 C24.8090928,18.1492807 23.1061908,19.8390928 23.1061908,21.9233138 Z" id="Fill-4" fill="#EFF6FF" mask="url(#mask-3)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
