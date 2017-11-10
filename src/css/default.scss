@@ -198,7 +198,8 @@ nav.main {
 	/* Items */
 	ul.items {
 
-		padding-left: 85px;
+		/*padding-left: 85px;*//* with faq */
+		padding-left: 147px; /* without faq */
 
 		> li {
 
@@ -234,7 +235,7 @@ nav.main {
 .introduction {
 
 	height: 90vh;
-	background-image: url('../images/photos/city-traffic-people-smartphone.jpg');
+	background-image: url('../images/photos/bg-header.jpg');
 	background-position: center center;
 	background-size: cover;
 
@@ -1192,13 +1193,29 @@ nav.main {
 
 	}
 
-	section.introduction.row div.intro h1 {
+	section.introduction.row {
 
-		text-align: left;
-		font-size: 9vw;
-		line-height: 8vw;
+		background-image: url('../images/photos/mobile-bg-header.jpg');
 
-		white-space: nowrap;
+		div.intro h1 {
+
+			text-align: left;
+			font-size: 9vw;
+			line-height: 8vw;
+
+			margin-top: 100px;
+			margin-bottom: 30px;
+
+			white-space: nowrap;
+
+		}
+
+		> .buttons > .button {
+
+			margin-bottom: 10px;
+			margin-top: 0;
+
+		}
 
 	}
 
