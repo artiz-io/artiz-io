@@ -1,0 +1,281 @@
+/* Imports */
+@import 'colors';
+
+/* Util */
+.button {
+
+	display: block;
+
+	min-width: 150px;
+	height: 40px;
+	line-height: 40px;
+
+	text-transform: uppercase;
+	text-align: center;
+
+	letter-spacing: 2px;
+
+	border: 2px solid white;
+	font-size: 80%;
+
+	text-decoration: none !important;
+
+	background-repeat: no-repeat;
+	background-position: 15px 12px;
+	background-size: 15px;
+
+	&.transparent_red {
+
+		color: white;
+		border-color: $artiz-text-white;
+
+		&:hover {
+
+			color: $artiz-text-white;
+			background-color: $artiz-solid-blue;
+			border-color: $artiz-solid-blue;
+
+		}
+
+	}
+
+	&.transparent_white {
+
+		color: white;
+		border-color: $artiz-text-white;
+
+		&:hover {
+
+			color: black;
+			background-color: $artiz-solid-lightblue;
+
+		}
+
+	}
+
+	&.transparent_lightblue {
+
+		color: $artiz-solid-blue;
+		border-color: $artiz-solid-blue;
+
+		&:hover {
+
+			color: $artiz-text-white;
+			background-color: $artiz-solid-red;
+			border-color: $artiz-solid-red;
+
+		}
+
+
+	}
+
+}
+
+.noBox {
+
+	width: 100%;
+	overflow: visible;
+	height: 0 !important;
+
+}
+
+.scroller-offset-100 {
+
+	position: relative;
+	top: -100px;
+
+}
+
+/* Main */
+html {
+
+}
+
+.container-fluid {
+
+	width: 100vw;
+	overflow-x: hidden;
+
+	position: relative;
+
+}
+
+body {
+
+	background-color: $artiz-solid-lightblue;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	width: 100vw !important;
+	position: relative;
+
+}
+
+/* Nav main */
+nav.main {
+
+	min-height: 80px;
+	overflow: visible;
+
+	background-color: $artiz-solid-blue;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.46);
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0; 
+
+	z-index: 101;
+
+	.navbar-toggler {
+
+		color: $artiz-text-white !important;
+		border-color: $artiz-text-white !important;
+		
+		span {
+
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,244,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+		}
+
+	}
+
+	/* Logo */
+	.logo {
+
+		display: block;
+		text-decoration: none;
+		outline: none;
+
+		line-height: 54px;
+
+		width: 50%;
+		text-align: right;
+
+		float: left;
+
+	    .logoContainer {
+
+	    	margin-left: auto;
+
+	    	width: 420px;
+	    	white-space: nowrap;
+	    	text-align: left;
+
+			> img {
+
+				margin-right: 20px;
+				height: 54px;
+
+				display: inline-block;
+
+			}
+
+			.logo_text {
+
+				letter-spacing: 4.79px;
+				font-size: 26px;
+				color: $artiz-text-white;
+
+				display: inline-block;
+
+				vertical-align: middle;
+
+			}
+
+		}
+
+	}
+	/* End logo */
+
+	/* Items */
+	ul.items {
+
+		/*padding-left: 85px;*//* with faq */
+		padding-left: 147px; /* without faq */
+
+		> li {
+
+			> a {
+
+				color: $artiz-text-white !important;
+				padding: 0 !important;
+
+				margin: 5px 15px 5px 15px !important;
+
+				text-transform: uppercase;
+				border-bottom: 2px solid transparent;
+
+				&:hover,
+				&.active {
+
+					border-bottom: 2px solid $artiz-text-white;
+
+				}
+
+			}
+
+	
+
+		}
+
+	}
+
+}
+/* End nav main */
+
+/* Start introduction */
+.introduction {
+
+	height: 90vh;
+	background-image: url('../images/photos/bg-header.jpg');
+	background-position: center center;
+	background-size: cover;
+
+	margin-top: 80px;
+
+	.intro {
+
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-content: flex-end;
+	    align-items: flex-end;
+
+		h1 {
+
+			text-transform: uppercase;
+			color: $artiz-text-white;
+			font-weight: 700;
+
+			font-size: 80px;
+			line-height: 70px;
+			letter-spacing: 3.3px;
+
+		}
+
+	}
+
+	> .buttons {
+
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-content: flex-start;
+	    align-items: flex-start;
+
+	    > .button {
+
+	    	margin: 15px;
+
+	    }
+
+	}
+}
+/* Stop introduction */
