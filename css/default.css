@@ -1,176 +1,6 @@
 /* Variables */
 /* Imports */
 /* This is the only place where colors may be defined */
-/* Util */
-.button {
-  display: block;
-  min-width: 150px;
-  height: 40px;
-  line-height: 40px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 2px;
-  border: 2px solid white;
-  font-size: 80%;
-  text-decoration: none !important;
-  background-repeat: no-repeat;
-  background-position: 15px 12px;
-  background-size: 15px; }
-  .button.transparent_red {
-    color: white;
-    border-color: #EFF6FF; }
-    .button.transparent_red:hover {
-      color: #EFF6FF;
-      background-color: #397BD5;
-      border-color: #397BD5; }
-  .button.transparent_white {
-    color: white;
-    border-color: #EFF6FF; }
-    .button.transparent_white:hover {
-      color: black;
-      background-color: #ECF4FF; }
-  .button.transparent_lightblue {
-    color: #397BD5;
-    border-color: #397BD5; }
-    .button.transparent_lightblue:hover {
-      color: #EFF6FF;
-      background-color: #EF7162;
-      border-color: #EF7162; }
-
-.noBox {
-  width: 100%;
-  overflow: visible;
-  height: 0 !important; }
-
-.scroller-offset-100 {
-  position: relative;
-  top: -100px; }
-
-/* Main */
-.container-fluid {
-  width: 100vw;
-  overflow-x: hidden;
-  position: relative; }
-
-body {
-  background-color: #ECF4FF;
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-weight: 200;
-  overflow-x: hidden;
-  overflow-y: auto;
-  width: 100vw !important;
-  position: relative; }
-
-/* Nav main */
-nav.main {
-  min-height: 80px;
-  overflow: visible;
-  background-color: #397BD5;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.46);
-          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.46);
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: 0;
-  z-index: 101;
-  /* Logo */
-  /* End logo */
-  /* Items */ }
-  nav.main .navbar-toggler {
-    color: #EFF6FF !important;
-    border-color: #EFF6FF !important; }
-    nav.main .navbar-toggler span {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,244,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
-  nav.main .logo {
-    display: block;
-    text-decoration: none;
-    outline: none;
-    line-height: 54px;
-    width: 50%;
-    text-align: right;
-    float: left; }
-    nav.main .logo .logoContainer {
-      margin-left: auto;
-      width: 420px;
-      white-space: nowrap;
-      text-align: left; }
-      nav.main .logo .logoContainer > img {
-        margin-right: 20px;
-        height: 54px;
-        display: inline-block; }
-      nav.main .logo .logoContainer .logo_text {
-        letter-spacing: 4.79px;
-        font-size: 26px;
-        color: #EFF6FF;
-        display: inline-block;
-        vertical-align: middle; }
-  nav.main ul.items {
-    padding-left: 85px; }
-    nav.main ul.items > li > a {
-      color: #EFF6FF !important;
-      padding: 0 !important;
-      margin: 5px 15px 5px 15px !important;
-      text-transform: uppercase;
-      border-bottom: 2px solid transparent; }
-      nav.main ul.items > li > a:hover, nav.main ul.items > li > a.active {
-        border-bottom: 2px solid #EFF6FF; }
-
-/* End nav main */
-/* Start introduction */
-.introduction {
-  height: 90vh;
-  background-image: url("../images/photos/city-traffic-people-smartphone.jpg");
-  background-position: center center;
-  background-size: cover;
-  margin-top: 80px; }
-  .introduction .intro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: end;
-        align-content: flex-end;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end; }
-    .introduction .intro h1 {
-      text-transform: uppercase;
-      color: #EFF6FF;
-      font-weight: 700;
-      font-size: 80px;
-      line-height: 70px;
-      letter-spacing: 3.3px; }
-  .introduction > .buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
-    .introduction > .buttons > .button {
-      margin: 15px; }
-
-/* Stop introduction */
 /* Start tokensale */
 .tokensale {
   background-color: #EF7162;
@@ -656,11 +486,18 @@ nav.main {
     padding-left: 0; }
     nav.main ul.items li a {
       border-bottom: 2px solid transparent !important; }
-  section.introduction.row div.intro h1 {
-    text-align: left;
-    font-size: 9vw;
-    line-height: 8vw;
-    white-space: nowrap; }
+  section.introduction.row {
+    background-image: url("../images/photos/mobile-bg-header.jpg"); }
+    section.introduction.row div.intro h1 {
+      text-align: left;
+      font-size: 9vw;
+      line-height: 8vw;
+      margin-top: 100px;
+      margin-bottom: 30px;
+      white-space: nowrap; }
+    section.introduction.row > .buttons > .button {
+      margin-bottom: 10px;
+      margin-top: 0; }
   section.what_is_artiz::before {
     background-image: none !important;
     height: 100px;
