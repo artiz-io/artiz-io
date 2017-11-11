@@ -25,7 +25,8 @@ gulp.task('css', function() {
 gulp.task('htmlmin', function() {
   return gulp.src(['./src/*.html', './src/**/*.html'])
     .pipe(htmlmin({
-      collapseWhitespace: true
+      collapseWhitespace: true,
+      removeComments: true
     }))
     .pipe(gulp.dest('./dist'));
 });
