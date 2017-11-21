@@ -4,66 +4,10 @@ $default-block-height: 500px;
 /* Imports */
 @import 'colors';
 
-/* Start video */
-.video {
-
-	background-color: $artiz-solid-video;
-
-	display: relative;
-
-	// margin-bottom: 100px;
-	// min-height: 465px + 200px;
-
-	margin-bottom: -50px;
-	&::before {
-
-	    content: "";
-	    display: block;
-	    width: 110%;
-	    background-color: $artiz-solid-video;
-	    height: 100px;
-	    margin-top: -50px;
-	    margin-left: -5%;
-
-	    position: absolute;
-
-	    transform: rotate(-2.7deg);
-
-	}
-
-	.col-12 {
-
-		position: relative;
-		z-index: 90;
-
-		margin-top: 25px;
-		margin-bottom: 150px;
-
-		.innerVideo {
-
-			width: 90%;
-			max-width: 825px;
-			margin: auto;
-
-			iframe {
-
-				max-width: 100%;
-
-			}
-
-		}
-
-	}
-
-}
-/* Stop video */
-
 /* Start tokensale */
 .tokensale {
 
 	background-color: $artiz-solid-red;
-	height: $default-block-height;
-	max-height: 80vh;
 
 	display: relative;
 
@@ -88,6 +32,20 @@ $default-block-height: 500px;
 
 		position: relative;
 		z-index: 90;
+
+	}
+
+	.videoPlayer {
+
+		text-align: center;
+		margin-top: 25px;
+		padding-bottom: 50px;
+
+		iframe {
+
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+
+		}
 
 	}
 
@@ -170,7 +128,7 @@ $default-block-height: 500px;
 
 	.buttons {
 
-		margin-bottom: 50px;
+		margin-bottom: 250px;
 
 		> .button {
 
