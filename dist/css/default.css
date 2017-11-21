@@ -328,7 +328,7 @@
   overflow: visible;
   margin-bottom: -50px;
   padding-bottom: 50px; }
-  .team::before {
+  .team:not(.noPre)::before {
     content: "";
     display: block;
     width: 110%;
