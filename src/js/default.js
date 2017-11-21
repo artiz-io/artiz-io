@@ -46,6 +46,8 @@ $(document).ready(function() {
     })
 
   // smooth scroll
-  var scroll = new SmoothScroll('a[href*="#"]:not(.ssignore)');
+  var scroll = new SmoothScroll('a[href*="#"]:not(.ssignore)', {
+    offset: -10
+  });
 
 });
