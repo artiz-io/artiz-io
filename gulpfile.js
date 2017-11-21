@@ -10,6 +10,7 @@ const svgmin = require('gulp-svgmin');
 const autoprefixer = require('autoprefixer');
 const bower = require('gulp-bower');
 const uglify = require('gulp-uglify');
+const replace = require('gulp-token-replace');
 
 // css sass and autoprefixer
 gulp.task('css', function() {
@@ -24,6 +25,11 @@ gulp.task('css', function() {
 // minify htmlmin
 gulp.task('htmlmin', function() {
   return gulp.src(['./src/*.html', './src/**/*.html'])
+    .pipe(replace({
+      global: {
+        token: new Date().getTime()
+      }
+    }))
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true
