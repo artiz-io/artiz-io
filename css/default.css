@@ -505,6 +505,8 @@
     section.introduction.row > .buttons > .button {
       margin-bottom: 10px;
       margin-top: 0; }
+  section.tokensale.row div.buttons {
+    margin-bottom: 50px; }
   section.what_is_artiz::before {
     background-image: none !important;
     height: 100px;
